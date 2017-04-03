@@ -1,12 +1,12 @@
 package pl.akademiakodu;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * Created by tomek on 03.04.2017.
- */
+@SpringBootApplication
 public class KwejkApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(KwejkApplication.class, args);
-    }
+
+	public static void main(String[] args) {
+		SpringApplication.run(KwejkApplication.class, args);
+	}
 }
