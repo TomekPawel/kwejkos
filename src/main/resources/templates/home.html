@@ -33,7 +33,7 @@
 </div>
 <div class="search-bar container">
     <div class="row">
-        <div class="col s12 l4">
+        <div class="col s12">
             <form action="#" method="get">
                 <div class="input-field">
                     <input name="q" type="search" placeholder="Wyszukiwanie..." required="required" autocomplete="off"/>
@@ -46,7 +46,7 @@
 <div class="gifs container">
     <div class="row">
         <div th:each="gif : ${gifs}" class="col s12 l4">
-            <img th:src="@{'/gifs/' + ${gif.name} + '.gif'}0"/>
+            <img th:src="@{'/gifs/' + ${gif.name} + '.gif'}"/>
         </div>
     </div>
 </div>
